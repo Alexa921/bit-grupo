@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.titulo-formulario {
+    font-size: 70px; 
+    margin-top: 90px; 
+    margin-left: 720px;
+    color: #750187;
+}
+
+.contenedor-formulario {
+    width: 600px;
+    height: 600px;
+    background-color: #fdc0d0;
+    border: 2px solid #dd98ab;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 600px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.pregunta1-formulario, .pregunta2-formulario, .pregunta3-formulario, .pregunta4-formulario, .pregunta5-formulario {
+    width: 440px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.formulario-enviar {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #750187;
+    margin-top: 60px;
+    margin-left: 110px;
+}

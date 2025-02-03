@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2 class="titulo-formulario">Formulario</h2>
+            <div id="formulario" class="contenedor-formulario">
+                <!--Primera pregunta-->
+                <select class="pregunta1-formulario form-select" aria-label="Default select example">
+                    <option id="tesientesidentificado" selected>¿Con qué género te sientes identificado?</option>
+                    <option id="hombre" value="1">Hombre</option>
+                    <option id="mujer" value="2">Mujer</option>
+                    <option id="otro" value="3">Otro</option>
+                </select>
+                <br>
+                <!--Segunda pregunta-->
+                <select class="pregunta2-formulario form-select" aria-label="Default select example">
+                    <option id="cisgenero" selected>¿Te concideras una persona cisgenero?</option>
+                    <option id="si" value="1">Sí</option>
+                    <option id="no" value="2">No</option>
+                    <option id="nodecirlo" value="3">Prefiero no dedcirlo</option>
+                </select>
+                <br>
+                <!--Tercer pregunta-->
+                <select class="pregunta3-formulario form-select" aria-label="Default select example">
+                    <option id="atraidohacia" selected>¿Te sientes atraid@ hacia personas del...?</option>
+                    <option id="opuesto" value="1">Género opuesto</option>
+                    <option id="mismo" value="2">Mismo género</option>
+                    <option id="depende" value="3">No depende del género</option>
+                    <option  id="noatraido" value="3">No me siento atraid@ hacia ningun género</option>
+                </select>
+                <br>
+                <!--Cuarta pregunta-->
+                <select class="pregunta4-formulario form-select" aria-label="Default select example">
+                    <option selected>¿Tu identidad de género coincide con el sexo asignado al nacer?</option>
+                    <option value="1">Sí</option>
+                    <option value="2">No</option>
+                    <option value="3">Prefiero no dedcirlo</option>
+                </select>
+                <br>
+                <!--Quinta pregunta-->
+                <select class="pregunta5-formulario form-select" aria-label="Default select example">
+                    <option selected>¿Qué pronombre prefieres que usen para referirse a ti?</option>
+                    <option value="1">Él</option>
+                    <option value="2">Ella</option>
+                    <option value="3">Elle</option>
+                </select>
+                <button id="enviar" class="formulario-enviar">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
